@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Roboto Mono', monospace, 'Source Sans Pro', sans-serif; 
+    font-size: 62.5%;
+    font-weight: 500;
+    background-color: #16161a;
+    color: #fffffe;
+}
+
+header nav {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav * {
+    margin: 1% 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fffffe;
+}
+
+p {
+    color: #94a1b2;
+    font-weight: 200;
+}
+
+button {
+    background-color: #7f5af0;
+    color: #fffffe;
+    padding: .4rem 1rem;
+    border: none;
+    font-weight: 500;
+    font-size: 1.7rem;
+    font-family: 'Roboto Mono';
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+span{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+main section {
+    margin: 4rem;
+}
+
+main section * {
+    padding: 0 8rem;
+    margin: 1rem 0;
+}
+
+form {
+    display: flex;
+}
+
+form button {
+    border-radius: 0;
+    padding: .5rem 1rem;
+}
+
+main img {
+    width: 50%;
+    height: 50%;
+    border-radius: 6px;
+}
+
+.middle {
+    display: flex;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+section div {
+    margin: 4%;
+}
+
+section div * {
+    margin: 1rem;
+}
+
+.bottom {
+    font-size: 2rem;
+    margin: 1% 1% 1% 4%;
+    width: 40%;
+    border-bottom: 2px solid #fffffe;
+}
+
+.bottom * {
+    padding: 2%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding: 4% 4% 2% 2%;
+}
+
+section.address h2 {
+    font-size: 1.3rem;
+}
+
+@media all and (max-width: 600px) {
+    nav div, .main-pic {
+        display: none;
+    }
+    .middle {
+        flex-wrap: wrap;
+    }
+    .bottom {
+        width: 80%;
+    }
+}
+
+
